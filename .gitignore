@@ -1,1 +1,5 @@
+/node_modules
 .idea/
+/cloud_sql_proxy
+
+.vscode/settings.json

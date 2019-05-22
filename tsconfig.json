@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "module": "commonjs",
+    "allowJs": true,
+    "target": "es5",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "skipDefaultLibCheck": true,
+    "declaration": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "baseUrl": "types",
+  "typeRoots": [
+    "types"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    /* ... */
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "/node_modules",
+    "**/*.spec.ts"
+  ]
+}

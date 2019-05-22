@@ -1,0 +1,24 @@
+[
+  {
+    "name": "default",
+    "driver": {
+      "type": "mysql",
+      "host": "localhost",
+      "port": 3306,
+      "username": "test",
+      "password": "test123!",
+      "database": "test"
+    },
+    "logging": {
+      "logQueries": true,
+      "logFailedQueryError": true
+    },
+    "autoSchemaSync": true,
+    "entities": [
+      "src/entity/*.ts"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity"
+    }
+  }
+]
