@@ -1,2 +1,4 @@
 # Typescript-node-typeorm
-Typescript node.js typeorm boilertaile
+- 개인 프로젝트
+- Firebase login.
+

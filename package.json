@@ -9,7 +9,8 @@
     "deploy": "gcloud app deploy",
     "start-ts-node": "$(npm bin)/ts-node ./src/Server.ts",
     "dev": "$(npm bin)/nodemon --exec $(npm bin)/ts-node ./src/Server.ts",
-    "node": "nodemon ./dist/Server.js 3000"
+    "node": "nodemon ./dist/Server.js 3000",
+    "lint": "tslint"
   },
   "dependencies": {
     "@google-cloud/debug-agent": "^2.1.3",
@@ -49,7 +50,7 @@
     "file-loader": "^0.11.1",
     "fs": "0.0.1-security",
     "jest": "^20.0.1",
-    "nodemon": "^1.17.5",
+    "nodemon": "^1.19.0",
     "path": "^0.12.7",
     "shelljs": "^0.7.7",
     "to-string-loader": "^1.1.5",
