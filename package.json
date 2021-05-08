@@ -36,7 +36,7 @@
     "pug": "^2.0.0-rc.3",
     "reflect-metadata": "^0.1.12",
     "ts-node": "^3.3.0",
-    "typeorm": "0.1.0-alpha.31"
+    "typeorm": "0.2.25"
   },
   "devDependencies": {
     "@types/body-parser": "^1.16.4",
